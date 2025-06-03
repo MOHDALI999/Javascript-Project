@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>To-Do List</h1>
     <div class="container">
         <h2>just do it.</h2>
-        <input  id="details"type="text" placeholder="Enter the Task">
-        <button onclick="submit" id="btnsubmit">Add</button>
+        <div class="main">
+            <input  id="details" type="text" placeholder="Enter the Task">
+            <button onclick="submit()" id="btnsubmit">Add</button>
+        </div>
+        <img src="image/image (1).png" alt="To-Do List Image" class="image">
         <ul class="list">
         </ul>
     </div>
